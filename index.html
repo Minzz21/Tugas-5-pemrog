@@ -3,37 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Home</title>
+    <link
+      href="bootstrap-5.3.8-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="bootstrap-5.3.8-dist/js/bootstrap.bundle.js"
+      
+    ></script>
 </head>
-<body>
-    <h2>Home</h2>
-    <pre>
+<body class="d-flex flex-column min-vh-100" style="background-color: rgb(219, 219, 218);">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="WhatsApp Image 2025-08-27 at 00.00.08_38622358.jpg"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top rounded-circle"
+          />
+        </a>
+        <a class="navbar-brand" href="#">Mustamin</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="artikel.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="buku_tamu.html">Buku Tamu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="latihan2.html">Daftar Harga</a>
+            </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav> <br>
+    <div class="container border-bottom border-primary bg-light rounded-3 shadow-lg p-3 mb-4">
+    <h2 style="color: rgb(0, 26, 255);">Home</h2>
+    <p>
     Jurusan Teknik Informatika dan Komputer (JTIK) adalah salah satu jurusan yang 
 fokus pada penguasaan ilmu di bidang teknologi informasi, komputer, serta penerapannya 
 dalam berbagai aspek kehidupan. Di dalam jurusan ini, mahasiswa akan mempelajari dasar-dasar
 ilmu komputer, pemrograman, jaringan komputer, sistem basis data, kecerdasan buatan, multimedia, 
 serta pengembangan perangkat lunak dan perangkat keras.
-    </pre>
-<hr>
-    <h2>About Me</h2>
-    <a href="artikel.html">Klik untuk masuh ke halaman!</a>
-<hr>
-    <h2>Pendidikan & Pelatihan</h2>
+    </p>
+    </div>
+    <div class="container border-bottom border-primary bg-light rounded-3 shadow-lg p-3 mb-4">
+    <h2 style="color: rgb(0, 26, 255);">Pendidikan & Pelatihan</h2>
     <h4>Pendidikan :</h4>
-    <ul>
-        <li>SD Negeri 60 Bontoparang</li>
-        <li>SMP Negeri 2 Mangarabombang</li>
-        <li>SMK Negeri 5 Takalar</li>
-        <li>Kuliah Jurusan Teknik Informatika & Komputer  di Universitas Negeri Makassar</li>
-    </ul>
+    <ul class="list-group list-group-flush">
+  <li class="list-group-item">SD Negeri 60 Bontoparang</li>
+  <li class="list-group-item">SMP Negeri 2 Mangarabombang</li>
+  <li class="list-group-item">SMK Negeri 5 Takalar</li>
+  <li class="list-group-item">Kuliah Jurusan Teknik Informatika & Komputer  di Universitas Negeri Makassar</li>
+</ul>
     <h4>Pelatihan :</h4>
-    <ul>
-        <li>Ice Skill Up Himatik and GDGOC: UI/UX Designer and Web Development </li>
+    <ul class="list-group list-group-flush">
+  <li class="list-group-item">Ice Skill Up Himatik and GDGOC: UI/UX Designer and Web Development</li>
     </ul>
-<hr>
-<h2>Jadwal Kuliah</h2>
-<table width="1000" border="1" cellpadding="3">
-<tr>
+    </div>
+<div class="container border-bottom border-primary bg-light rounded-3 shadow-lg p-3 mb-4">
+<h2 style="color: rgb(0, 26, 255);">Jadwal Kuliah</h2>
+<table class="shadow rounded table table- table-striped text-center table-bordered" width="650" border="1" cellpadding="3">
+<tr class="table-info">
     <th>Hari</th>
     <th>No</th>
     <th>Mata Kuliah</th>
@@ -225,8 +287,16 @@ serta pengembangan perangkat lunak dan perangkat keras.
     <td>AE 107</td>
 </tr>
 </table>
-<hr>
-<h2>Buku Tamu</h2>
-<a href="../Praktikum 2/buku_tamu.html"> Klik Link ini Untuk Masuk Ke Halaman!!!!!!</a>
+</div>
+<footer class="bg-dark mt-auto">
+      <p class="text-center text-light">@Mustamin 2025</p>
+      <p class="text-center text-light">
+        <a
+          class="link-offset-2 link-underline link-underline-opacity-0"
+          href="https://wa.me/081355479007"
+          >Contact Me For Mabar</a
+        >
+      </p>
+    </footer>
 </body>
 </html>
